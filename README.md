@@ -29,7 +29,7 @@ To run the website locally, follow these steps:
 
 3. Explore the website!
 
-4. Live Demo URL: https://neilchitre2311.github.io/portfolio/
+4. View the website at: https://neilchitre2311.github.io/
 
 ## Contributing
 
