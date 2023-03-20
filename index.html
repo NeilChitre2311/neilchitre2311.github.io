@@ -68,11 +68,12 @@
       <div id="main">
         <!-- One -->
         <section id="one">
-          <div class="image main" data-position="center">
+          <!-- <div class="image main" data-position="center">
             <img src="images/banner.jpg" alt="" />
-          </div>
+          </div> -->
           <div class="container">
             <header class="major">
+              <h2 style="font-size: 40px; margin-bottom: 10px;">Hi! I am Neil,</h2>
               <h2 style="font-size: 40px; margin-bottom: 10px;">Software Engineer - Data Scientist</h2>
               <p style="margin-top: 10px; margin-bottom: 10px">Navigating the world of Data Science, Software Engineering and Machine Learning.</p>
             </header>
@@ -80,6 +81,9 @@
               I have 4 years of work experience as a Full Stack developer, building software applications for various industries.
               <br/>Currently, I am pursuing my M.S. in Data Science from the University of San Francisco, where I am deepening my knowledge in courses like Advanced Machine Learning, Distributed Data Systems, Data Structures & Algorithms, and Relational Databases.
               <br/>On this website, you can learn more about my skills, experience, and interests, and get in touch with me to discuss potential opportunities or collaborations.</p>
+              <div class="col-12">
+                <a href="./data/latest_resume.pdf" download="resume" target="_blank" class="button primary resize-button">View Resume</a>
+              </div>
           </div>
         </section>
         <!-- Two -->
@@ -110,12 +114,12 @@
                   <p>Worked with the development team to build a Recommendation System that recommends educational modules to customers.</p>
                 </div>
               </div>
-              <div class="row">
+              <!-- <div class="row">
                 <div class="col-12">
                   <p>For a more comprehensive overview of my work experience, please download my resume using the button below:</p>
-                  <a href="./data/resume.pdf" download="resume" target="_blank" class="button primary resize-button">View Resume</a>
+                  <a href="./data/latest_resume.pdf" download="resume" target="_blank" class="button primary resize-button">View Resume</a>
                 </div>
-              </div>
+              </div> -->
           </div>
         </section>
         <!-- Three -->
@@ -174,7 +178,7 @@
                 </a>
                 <div class="inner">
                   <h4>Product Search Engine</h4>
-                  <p>Search engine pipeline using PySpark, MongoDB, and Airflow. The pipeline fetches product data from the ASOS API, stores the data in Google Cloud Storage (GCS), loads the data into MongoDB, and calculates BM25 scores to rank the top 10 items.</p>
+                  <p>Search engine pipeline using PySpark, MongoDB, and Airflow. The pipeline fetches product data from the ASOS API, stores the data in Google Cloud Storage (GCS), loads the data into MongoDB, and calculates cosine similarity scores to rank the top 10 items.</p>
                 </div>
               </article>
             </div>
