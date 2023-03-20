@@ -1,6 +1,6 @@
 # Neil Chitre's Portfolio Website
 
-This repository contains the source code for my personal portfolio website, showcasing my skills and experience in data engineering, data science, and machine learning.
+This repository contains the source code for my personal portfolio website, showcasing my skills and experience in software engineering, data science, and machine learning.
 
 ![Portfolio Screenshot](./images/screenshot.png)
 
@@ -28,6 +28,8 @@ To run the website locally, follow these steps:
 2. Navigate to the cloned repository and open the `index.html` file in your favorite web browser.
 
 3. Explore the website!
+
+4. Live Demo URL: https://neilchitre2311.github.io/portfolio/
 
 ## Contributing
 
